@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app-wrapper {
+  display: flex;
+}
+
+.news-feed {
+  background-color: rgb(204, 204, 231);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 /2);
+  max-width: 300px;
+  border-radius: 5px;
+}
+.currency-converter {
+  background-color: rgb(230,  223, 211);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 /2);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.exchange-rate {
+  background-color: rgb(221, 230, 221);
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 /2);
+  border-radius: 5px;
+}
+
+button {
+  border: none;
+  float: right;
+  margin: 2px;
+}
+
+button:hover {
+  background-color: coral;
+}
+
+.input-box {
+  background-color: rgb(218, 227, 238);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+input, select {
+  border: none;
+}
