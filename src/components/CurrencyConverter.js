@@ -1,5 +1,6 @@
 import ExchangeRate from "./ExchangeRate";
 import {useState} from "react";
+import Button from '@mui/material/Button';
 import axios from "axios";
 
 const CurrencyConverter = () => {
@@ -89,7 +90,7 @@ const CurrencyConverter = () => {
 
 					</tbody>
 				</table>
-				<button id="convert-button" onClick={convert}>Convert</button>
+				<Button id="convert-button" onClick={convert}>Convert</Button>
 			</div>
 
 			<ExchangeRate
